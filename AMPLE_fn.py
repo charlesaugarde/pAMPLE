@@ -16,6 +16,8 @@ def main():
     # from setupGrid_beam_Jupyter       import setupGrid    
     # from setupGrid_collapse   import setupGrid
     from elemMPinfo  import elemMPinfo
+
+    
     from detExtForce import detExtForce 
     from detFDoFs    import detFDoFs
     from linSolve    import linSolve
