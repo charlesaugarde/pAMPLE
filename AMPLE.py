@@ -36,8 +36,8 @@ import pyvtk
 ## IMPORT LOCAL APPLICATIONS
 ## Setup function choices:                                                      # analysis specific information 
 # from setupGrid              import setupGrid                                    # (column under self-weight)
-from setupGrid_beam         import setupGrid                                    # (elastic cantilever beam)
-# from setupGrid_collapse     import setupGrid                                    # (elasto-plastic collapse)
+# from setupGrid_beam         import setupGrid                                    # (elastic cantilever beam)
+from setupGrid_collapse     import setupGrid                                    # (elasto-plastic collapse)
 # from setupGrid_beam_Jupyter import setupGrid                                    # (simplified elastic cantilever beam)
 
 ## Standard functions
