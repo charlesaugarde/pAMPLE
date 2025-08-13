@@ -7,6 +7,7 @@ def main():
     import os
     import time
     import pyvtk 
+    
     # pyVTK must be installed in Python environment before running AMPLE
     #   > downloadable from PyPI using: pip install PyVTK
     
