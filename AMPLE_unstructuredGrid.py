@@ -81,7 +81,8 @@ class UnstructuredGrid(DataSet.DataSet):
         for k,n in self._vtk_cell_nums_map.items():
             if n==-1: continue
             kv = getattr(self,k)
-            if kv==[] or kv[0]==[]: continue
+            if len(kv) == 0 or len(kv[0]) == 0:continue
+ #           if kv==[] or kv[0]==[]: continue
             for v in kv:
                 if len(v)!=n:
                     raise ValueError('Cell %s requires exactly %s points but got %s: %s'%(repr(k),n,len(v),v))
@@ -96,7 +97,8 @@ class UnstructuredGrid(DataSet.DataSet):
         sz = 0
         for k in self._vtk_cell_types_map.keys():
             kv = getattr(self, k)
-            if kv==[] or kv[0]==[]: continue
+            if len(kv) == 0 or len(kv[0]) == 0:continue
+            #if kv==[] or kv[0]==[]: continue
             s = self.seq_to_string([[len(v)]+list(v) for v in kv],format,'int')
             r.append(s)
             for v in kv:
@@ -114,7 +116,8 @@ class UnstructuredGrid(DataSet.DataSet):
         sz = 0
         for k in self._vtk_cell_types_map.keys():
             kv = getattr(self,k)
-            if kv==[] or kv[0]==[]: continue
+            if len(kv) == 0 or len(kv[0]) == 0:continue
+            #if kv==[] or kv[0]==[]: continue
             sz += len(kv)
         return sz
     def get_points(self):
