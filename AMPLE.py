@@ -1,7 +1,7 @@
 """
-AMPLE-Py: A Material Point Learning Environment in Python
+AMPLE.py: A Material Point Learning Environment in Python
 
-Author: William Coombs (adapted from MATLAB to Python by Eleanor Bacon)
+Author: William Coombs (adapted from MATLAB to Python by Ellie Bacon)
 Date:   28/02/2021
 
 Description: 
@@ -36,8 +36,8 @@ import pyvtk
 ## IMPORT LOCAL APPLICATIONS
 ## Setup function choices:                                                      # analysis specific information 
 # from setupGrid              import setupGrid                                    # (column under self-weight)
-from setupGrid_beam         import setupGrid                                    # (elastic cantilever beam)
-# from setupGrid_collapse     import setupGrid                                    # (elasto-plastic collapse)
+# from setupGrid_beam         import setupGrid                                    # (elastic cantilever beam)
+from setupGrid_collapse     import setupGrid                                    # (elasto-plastic collapse)
 # from setupGrid_beam_Jupyter import setupGrid                                    # (simplified elastic cantilever beam)
 
 ## Standard functions
