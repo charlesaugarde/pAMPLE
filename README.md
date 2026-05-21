@@ -8,4 +8,4 @@ The code is based on the original AMPLE which was written in MATLAB by Will Coom
 
 Further information can be found at  the [AMPLE](https://wmcoombs.github.io/) webpage.
 
-The code and [associated Jupyter Notebook](../AMPLE-Py.ipynb) which you will find here are the results of final year project work undertaken at the Department of Engineering, Durham University by [Ellie Bacon](https://www.linkedin.com/in/eleanor-bacon/) in 2021.
+The code and [associated Jupyter Notebook](AMPLE-Py.ipynb) which you will find here are the results of final year project work undertaken at the Department of Engineering, Durham University by [Ellie Bacon](https://www.linkedin.com/in/eleanor-bacon/) in 2021.
